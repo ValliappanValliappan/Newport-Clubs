@@ -9,19 +9,52 @@
 /* Begin PBXBuildFile section */
 		3C1E8BF31EECD4EB002BDD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E8BF21EECD4EB002BDD57 /* AppDelegate.swift */; };
 		3C1E8BF51EECD4EB002BDD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E8BF41EECD4EB002BDD57 /* ViewController.swift */; };
-		3C1E8BF81EECD4EB002BDD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E8BF61EECD4EB002BDD57 /* Main.storyboard */; };
 		3C1E8BFA1EECD4EB002BDD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E8BF91EECD4EB002BDD57 /* Assets.xcassets */; };
 		3C1E8BFD1EECD4EB002BDD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E8BFB1EECD4EB002BDD57 /* LaunchScreen.storyboard */; };
+		3C50B0DB1F07352E0000D5B3 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50B0DA1F07352E0000D5B3 /* Club.swift */; };
+		3C50B0E91F0737730000D5B3 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0E81F0737730000D5B3 /* AWSCore.framework */; };
+		3C50B0EA1F0737730000D5B3 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0E81F0737730000D5B3 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C50B0ED1F0737A60000D5B3 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0EC1F0737A60000D5B3 /* AWSDynamoDB.framework */; };
+		3C50B0EE1F0737A60000D5B3 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0EC1F0737A60000D5B3 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C50B0F01F0737BB0000D5B3 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0EF1F0737BB0000D5B3 /* AWSCognito.framework */; };
+		3C50B0F11F0737BB0000D5B3 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C50B0EF1F0737BB0000D5B3 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C50B0F61F07394E0000D5B3 /* ListOfClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50B0F41F07394E0000D5B3 /* ListOfClubsViewController.swift */; };
+		3C50B0F91F073A5B0000D5B3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50B0F81F073A5B0000D5B3 /* TableViewCell.swift */; };
+		3C50B0FC1F0744120000D5B3 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50B0FA1F0744120000D5B3 /* ClubViewController.swift */; };
+		3C50B1021F08CDBE0000D5B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50B1011F08CDBE0000D5B3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C50B0EB1F0737730000D5B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C50B0F11F0737BB0000D5B3 /* AWSCognito.framework in Embed Frameworks */,
+				3C50B0EE1F0737A60000D5B3 /* AWSDynamoDB.framework in Embed Frameworks */,
+				3C50B0EA1F0737730000D5B3 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3C1E8BEF1EECD4EB002BDD57 /* Newport Clubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Newport Clubs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1E8BF21EECD4EB002BDD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C1E8BF41EECD4EB002BDD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C1E8BF71EECD4EB002BDD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C1E8BF91EECD4EB002BDD57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C1E8BFC1EECD4EB002BDD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1E8BFE1EECD4EB002BDD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C50B0DA1F07352E0000D5B3 /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		3C50B0E81F0737730000D5B3 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
+		3C50B0EC1F0737A60000D5B3 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSDynamoDB.framework; sourceTree = "<group>"; };
+		3C50B0EF1F0737BB0000D5B3 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = "<group>"; };
+		3C50B0F41F07394E0000D5B3 /* ListOfClubsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfClubsViewController.swift; sourceTree = "<group>"; };
+		3C50B0F81F073A5B0000D5B3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3C50B0FA1F0744120000D5B3 /* ClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
+		3C50B1011F08CDBE0000D5B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C50B0F01F0737BB0000D5B3 /* AWSCognito.framework in Frameworks */,
+				3C50B0ED1F0737A60000D5B3 /* AWSDynamoDB.framework in Frameworks */,
+				3C50B0E91F0737730000D5B3 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +74,9 @@
 		3C1E8BE61EECD4EB002BDD57 = {
 			isa = PBXGroup;
 			children = (
+				3C50B0EF1F0737BB0000D5B3 /* AWSCognito.framework */,
+				3C50B0EC1F0737A60000D5B3 /* AWSDynamoDB.framework */,
+				3C50B0E81F0737730000D5B3 /* AWSCore.framework */,
 				3C1E8BF11EECD4EB002BDD57 /* Newport Clubs */,
 				3C1E8BF01EECD4EB002BDD57 /* Products */,
 			);
@@ -56,10 +95,14 @@
 			children = (
 				3C1E8BF21EECD4EB002BDD57 /* AppDelegate.swift */,
 				3C1E8BF41EECD4EB002BDD57 /* ViewController.swift */,
-				3C1E8BF61EECD4EB002BDD57 /* Main.storyboard */,
+				3C50B1011F08CDBE0000D5B3 /* Main.storyboard */,
 				3C1E8BF91EECD4EB002BDD57 /* Assets.xcassets */,
 				3C1E8BFB1EECD4EB002BDD57 /* LaunchScreen.storyboard */,
 				3C1E8BFE1EECD4EB002BDD57 /* Info.plist */,
+				3C50B0DA1F07352E0000D5B3 /* Club.swift */,
+				3C50B0F41F07394E0000D5B3 /* ListOfClubsViewController.swift */,
+				3C50B0F81F073A5B0000D5B3 /* TableViewCell.swift */,
+				3C50B0FA1F0744120000D5B3 /* ClubViewController.swift */,
 			);
 			path = "Newport Clubs";
 			sourceTree = "<group>";
@@ -74,6 +117,8 @@
 				3C1E8BEB1EECD4EB002BDD57 /* Sources */,
 				3C1E8BEC1EECD4EB002BDD57 /* Frameworks */,
 				3C1E8BED1EECD4EB002BDD57 /* Resources */,
+				3C50B0EB1F0737730000D5B3 /* Embed Frameworks */,
+				3C50B0FE1F079C6C0000D5B3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,33 +170,45 @@
 			files = (
 				3C1E8BFD1EECD4EB002BDD57 /* LaunchScreen.storyboard in Resources */,
 				3C1E8BFA1EECD4EB002BDD57 /* Assets.xcassets in Resources */,
-				3C1E8BF81EECD4EB002BDD57 /* Main.storyboard in Resources */,
+				3C50B1021F08CDBE0000D5B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C50B0FE1F079C6C0000D5B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Shell /bin/sh\n\nbash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C1E8BEB1EECD4EB002BDD57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C50B0F91F073A5B0000D5B3 /* TableViewCell.swift in Sources */,
 				3C1E8BF51EECD4EB002BDD57 /* ViewController.swift in Sources */,
+				3C50B0FC1F0744120000D5B3 /* ClubViewController.swift in Sources */,
 				3C1E8BF31EECD4EB002BDD57 /* AppDelegate.swift in Sources */,
+				3C50B0DB1F07352E0000D5B3 /* Club.swift in Sources */,
+				3C50B0F61F07394E0000D5B3 /* ListOfClubsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C1E8BF61EECD4EB002BDD57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C1E8BF71EECD4EB002BDD57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3C1E8BFB1EECD4EB002BDD57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,6 +315,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Newport Clubs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ratan.Newport-Clubs";
@@ -270,6 +331,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Newport Clubs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ratan.Newport-Clubs";
@@ -297,6 +362,7 @@
 				3C1E8C031EECD4EB002BDD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
